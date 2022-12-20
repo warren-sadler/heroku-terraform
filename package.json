@@ -44,7 +44,7 @@
     "zod": "^3.20.2"
   },
   "lint-staged": {
-    ".ts": [
+    "*.ts": [
       "yarn jest --bail --findRelatedTests --passWithNoTests"
     ]
   }
