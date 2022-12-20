@@ -1,2 +1,15 @@
 build
 node_modules
+
+# IntelliJ
+.idea
+
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+
+# Generated Terragrunt files
+terraform/env/**/provider.tf
+.terraform.lock.hcl
