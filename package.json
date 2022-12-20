@@ -5,7 +5,10 @@
   "author": "Warren Sadler",
   "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "prebuild": "yarn typecheck",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
   },
   "keywords": [],
   "description": "",
